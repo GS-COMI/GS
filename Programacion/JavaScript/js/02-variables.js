@@ -4,4 +4,9 @@
 var pais = "Mexico";
 var continente = "Amererica";
 
-console.log(pais, continente);
+pais = "USA";
+
+var conj = pais+' '+continente;
+
+console.log(conj);
+alert(conj);
